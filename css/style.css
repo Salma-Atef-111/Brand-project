@@ -1,0 +1,624 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+.firstdiv{
+    width: 100%;
+    background-image: url(../images/back1.png);
+    background-size: cover;
+    padding-bottom: 80px;
+    background-color: rgb(57, 141, 214);
+}
+.seconddiv{
+    width: 100%;
+}
+.thirddiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    width: 100%;
+    background: linear-gradient(to bottom, white 50%, rgba(22, 105, 122, 1) 50%);
+}
+.divfour{
+    width: 100%;
+    background-color: rgba(243, 243, 243, 1);
+}
+.divfive{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+}
+.divsix{
+    width: 100%;
+    background-image: url(../images/background\ \(2\).png);
+    background-size: cover;
+    padding-bottom: 250px;
+}
+.divseven{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35%;
+    padding-bottom: 60px;
+    width: 100%;
+    background-color: rgba(250, 250, 250, 1);
+}
+
+.footer{
+    width: 100%;
+    background-color: rgba(37, 43, 66, 1);
+}
+.madewith{
+    width: 100%;
+    padding-bottom:20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15%;
+    background-color: rgba(22, 105, 122, 1);
+}
+
+.brand{
+    padding-right:30%;
+    font-size:24px ;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color:rgba(37, 43, 66, 1) ;
+
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 40px;
+
+}
+.list{
+    display: flex;
+
+}
+ul li a{
+    text-decoration-line: none;
+    color: #000000;
+    margin-left: 30px;    
+
+}
+ul li {
+    display: inline-block;
+}
+.icon{
+   padding-left: 20px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 120px;
+}
+.col1{
+    padding-top:80px;
+}
+.row h1{
+    color:  rgba(37, 43, 66, 1);
+    font-weight: 800;
+    font-size: 58px;
+    letter-spacing: 0.2px;
+    line-height: 80px;
+    padding-bottom: 30px;
+}
+.row h4{
+    color:  rgba(115, 115, 115, 1);
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 50px;
+}
+.btn1{
+    background-color: rgba(0, 160, 193, 1);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 0 10px;
+    text-decoration-line: none;
+    border-color: rgba(0, 160, 193, 1);
+}
+.btn2{
+    background-color: transparent;
+    color: rgba(0, 160, 193, 1);
+    border:0.5px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 0 10px;
+    text-decoration-line: none;
+    border-color: rgba(0, 160, 193, 1);
+}
+.col2{
+    padding-left: 40px;
+    padding-bottom: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+#book{
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 35px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    padding-left: 20px;
+}
+.booklist{
+    padding-top: 40px;
+    border-radius: 1px;
+    padding-left: -70px;
+    margin-right: 50px;
+}
+.formgroup{
+    width: 248px;
+    height: 91px; 
+}
+.myclass{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing:0.2px ;
+    color: rgba(37, 43, 66, 1);
+}
+.box{
+    color:rgba(115, 115, 115, 1);
+    padding-left: 20px;
+    width:245px ;
+    height:50px ;
+    border-radius: 5px;
+    border-color:rgba(189, 189, 189, 1) ;
+}
+.btn-warning{
+    background-color: rgba(255, 166, 43, 1);
+    width:248px;
+    height:58px ;
+    border-radius: 5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight:700 ;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    border-color: #fff;
+}
+.title h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: rgba(37, 43, 66, 1);
+    text-align: center;
+    padding-top: 70px;
+}
+.title p{
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: rgba(115, 115, 115, 1);
+    text-align: center;
+}
+.row2{
+    gap: 30px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding-top: 70px;
+}
+.top{
+    gap: 20px;
+    padding-right: 30px;
+    padding-top: 20px;
+    background-color:rgba(217, 237, 255, 1);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+.top h5{
+   padding-top: 20px;
+}
+.topimg{
+   margin-left: 20px;
+}
+.contant{
+    border-radius: 11px;
+    border: 2px rgba(169, 214, 255, 1) solid ;
+    gap: 5px;
+    font-weight: 600;
+    font-size:14px ;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: rgba(115, 115, 115, 1);
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.btn{
+    color: gold;
+    text-align: center;
+    font-weight: 700;
+    font-size:15px ;
+    line-height: 15px;
+    letter-spacing: 0.2px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.col3 ,.btn{
+    text-decoration: none;
+}
+.titletwo{
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.titletwo h2{
+    text-align: center;
+    font-weight: 700;
+    font-size:40px ;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: rgba(37, 43, 66, 1);
+}
+.titletwo p{
+    text-align: center;
+    font-weight: 500;
+    font-size:14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: rgba(115, 115, 115, 1);
+}
+
+.video img{
+    width: 100%;
+    border-radius: 5px;
+}
+.titlethree h2{
+    padding-top: 70px;
+    text-align: center;
+    font-weight:700;
+    font-size:40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color:rgba(37, 43, 66, 1) ;
+}
+.titlethree p{
+    text-align: center;
+    font-weight:500;
+    font-size:14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color:rgba(115, 115, 115, 1) ;
+}
+.row3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-top: 70px; 
+    padding-bottom: 100px;
+    
+}
+.col4{
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px rgba(222, 222, 222, 1) solid;
+    position: relative;
+    padding-right: 50px;
+    
+}
+.stars{
+    width: 110.07px;
+    height:22px ;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.col4 h6{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight:600 ;
+    font-size:14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color:rgba(115, 115, 115, 1) ;
+}
+.icondiv4{
+    position: absolute;
+    left: 20px;
+}
+.framebottom{
+    margin-top: 30px;
+}
+.framebottom1{
+    position: relative;
+    left: 80px;
+    font-weight:600 ;
+    font-size:14px;
+    line-height: 10px;
+    letter-spacing: 0.2px;
+    color:rgba(37, 43, 66, 1) ;
+}
+.titlefour h2{
+    text-align: center;
+    padding-top: 80px;
+    font-weight:700 ;
+    font-size:40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color:rgba(37, 43, 66, 1) ;
+}
+.titlefour p{
+    text-align: center;
+    font-weight:500 ;
+    font-size:14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color:rgba(115, 115, 115, 1) ;
+}
+.row4{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding-bottom: 100px;
+}
+.card-body h5{
+    padding-bottom: 10px;
+    margin-top: 20px;
+    font-weight:700 ;
+    font-size:16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color:rgba(37, 43, 66, 1) ;
+}
+.card-body h6{
+    padding-bottom: 10px;
+    font-weight:600 ;
+    font-size:14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color:rgba(115, 115, 115, 1);
+}
+.card-body{
+    text-align: center;
+}
+.carditem{
+    border-radius:10px ;
+}
+.carditamcontact{
+    padding-top: 100px;
+    padding-left: 10%;
+}
+.carditamcontact h5{
+    font-weight:700 ;
+    font-size:16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color:rgba(37, 43, 66, 1) ;
+}
+.carditamcontact h2{
+    font-weight:700 ;
+    font-size:40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color:rgba(37, 43, 66, 1) ;
+}
+.cardsixone{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 40px;
+    padding-left: 10%;
+}
+.inputcard{
+    width: 286px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px rgba(189, 189, 189, 1) solid;
+    padding-left: 20px;
+    color: rgba(189, 189, 189, 1);
+    font-weight:600 ;
+    font-size:14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+
+}
+.cardsixtwo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 20px;
+    padding-left: 10%;
+}
+.textareaM{
+display: flex;
+flex-wrap: wrap;
+padding-left: 10%;
+padding-top: 20px;
+}
+#message{
+    width: 598px;
+    height: 140px;
+    border-radius: 5px;
+    border: 1px rgba(189, 189, 189, 1) solid;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.btncontacttwo{
+    background-color: rgba(255, 166, 43, 1);
+    text-align: center;
+    color: #fff; 
+    width: 218px;
+    height:58px;
+    border-radius:5px ;
+    border-color:rgba(255, 166, 43, 1);
+    font-weight:700;
+    font-size:14px;
+    line-height:28px;
+    letter-spacing: 0.2px;
+    margin-top: 30px;
+    margin-left: 10%;
+
+}
+.left{
+  padding-top: 40px;
+
+}
+.left h3{
+    font-weight:700 ;
+    font-size:24px;
+    line-height:32px;
+    letter-spacing: 0.1px;
+    color:rgba(37, 43, 66, 1);
+    padding-top: 20px;
+}
+.left p{
+    font-weight:500;
+    font-size:14px;
+    line-height:20px;
+    letter-spacing: 0.2px;
+    color:rgba(115, 115, 115, 1);
+}
+.right{
+    padding-left: 80px;
+    padding-top: 50px;
+}
+.btncontact{
+    background-color: rgba(255, 166, 43, 1);
+    text-align: center;
+    color: #fff;
+    padding:15px 40px 15px 40px ;
+    border-radius:5px ;
+    border-color:rgba(255, 166, 43, 1);
+    font-weight:700;
+    font-size:14px;
+    line-height:28px;
+    letter-spacing: 0.2px;
+}
+
+.titlefive{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-top: 20px;
+}
+.col6 h3{
+    padding-left: 180px;
+    padding-top: 40px;
+    font-weight:700 ;
+    font-size:24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color:rgba(255, 255, 255, 1);
+}
+.footerimg{
+    padding-top: 40px;
+}
+hr{
+    margin-top: 50px;
+    margin-left:40px;
+    border: 1px rgba(54, 64, 103, 1) solid;
+}
+.information{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 150px;
+    padding-top: 60px;
+    
+}
+.col7{
+    padding-top: 40px;
+    padding-left:130px;
+    color: rgba(255, 255, 255, 1);
+}
+.col7 h5{
+    
+    padding-bottom: 20px;
+    font-weight:700 ;
+    font-size:16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+.col7 p{
+    padding-bottom: 20px;
+    font-weight:600 ;
+    font-size:14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color:rgba(189, 189, 189, 1) ;
+}
+#btn{
+    margin-right: 50px;
+    height: 50px;
+    width: 117px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-color: rgba(230, 230, 230, 1);
+    background-color: rgba(255, 166, 43, 1);
+    font-weight:400 ;
+    font-size:14px;
+    line-height: 28px;
+    letter-spacing: 0.2px; 
+
+}
+.inputcard2{
+    height: 50px;
+    padding-left: 20px;
+    color: rgba(189, 189, 189, 1);
+    font-weight:400 ;
+    font-size:14px;
+    line-height: 28px;
+    letter-spacing: 0.2px; 
+    border: none;
+}
+.formtext{
+    color: rgba(189, 189, 189, 1);
+    font-weight:400 ;
+    font-size:12px;
+    line-height: 28px;
+    letter-spacing: 0.2px; 
+    padding-top: 10px;
+}
+.lastone h6{
+    padding-top: 25px;
+    font-weight:600;
+    font-size:14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color:rgba(255, 255, 255, 1);
+}
+@media only screen and (max-width:600px){
+    .navbar{
+        color: #fff;
+        height: 500px;
+        background-color:white;
+    }
+    .list li{
+        padding-top: 40px;
+        padding-right: 80px;
+        display: flex;
+        justify-content: center;
+        justify-self: center;
+    }
+    .col2{
+        margin-top: 60px;
+    }
+    .information{
+        flex-direction: column;
+    }
+}
